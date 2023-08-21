@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+html{
+  font-family: 'Helvetica', 'Passion One', sans-serif;
+  color: white;
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main{
+  flex-grow: 1;
+  background-image: url(../src/img/earth.png);
+  background-repeat: no-repeat;
+  background-size: 377px 436px;
+  background-position: -73px 50%;
+  background-attachment: fixed;
+}
